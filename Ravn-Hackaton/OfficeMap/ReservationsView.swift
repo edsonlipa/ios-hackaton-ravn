@@ -32,7 +32,6 @@ struct ReservationsView: View {
                         Text("American Fork Office")
                             .tag("American Fork")
                     }
-                    .tint(Color.primaryColor)
 
                     Spacer()
 

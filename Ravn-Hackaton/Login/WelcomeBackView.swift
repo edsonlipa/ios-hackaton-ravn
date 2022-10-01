@@ -52,7 +52,8 @@ struct WelcomeBackView: View {
                 }
 
                 NavigationLink(destination: LoginView()) {
-                    Button("Try a different email", action: {})
+                    Text("Try a different email")
+                        .foregroundColor(.primaryColor)
                         .padding(.all)
                 }
 
