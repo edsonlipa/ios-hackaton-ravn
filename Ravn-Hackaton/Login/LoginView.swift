@@ -18,12 +18,13 @@ struct LoginView: View {
                     .ignoresSafeArea(.all)
                 
                 NavigationLink(
-                    destination: ReservationsView(),
+                    destination: WelcomeBackView(),
                     tag: true,
                     selection: $logged
                 ) {
                     Text("Sign In")
                 }
+
                 VStack {
                     Image("logo")
                     Text("Sign in to your account")
@@ -40,10 +41,10 @@ struct LoginView: View {
                         Text("Forgot your password?")
                         Spacer()
 
-                        Toggle("Remember me", isOn: .constant(false))
-
                     }
                     .font(.caption)
+                    .padding(.vertical)
+                    .foregroundColor(.primaryColor)
 
                     Button(action: {
                         logged = true

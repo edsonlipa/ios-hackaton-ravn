@@ -48,10 +48,6 @@ struct SelectTimeView: View {
                 .navigationTitle(title)
                 .toolbar {
                     DatePicker("", selection: $date, displayedComponents: [.date])
-
-//                    Button("Help") {
-//                        print("Help tapped!")
-//                    }
                 }
 
                 Spacer()

@@ -20,6 +20,7 @@
 		4B0AF0A128E879DA00D541A1 /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF0A028E879DA00D541A1 /* ReservationsView.swift */; };
 		4B0AF0A328E8921F00D541A1 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF0A228E8921F00D541A1 /* Color+Extension.swift */; };
 		4B0AF0A528E89DF200D541A1 /* SelectTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF0A428E89DF200D541A1 /* SelectTimeView.swift */; };
+		4B0AF0A728E8BB4300D541A1 /* WelcomeBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF0A628E8BB4300D541A1 /* WelcomeBackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		4B0AF0A028E879DA00D541A1 /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
 		4B0AF0A228E8921F00D541A1 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		4B0AF0A428E89DF200D541A1 /* SelectTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeView.swift; sourceTree = "<group>"; };
+		4B0AF0A628E8BB4300D541A1 /* WelcomeBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				4B0AF09528E856CB00D541A1 /* LoginView.swift */,
 				4B0AF09728E856EB00D541A1 /* LoginViewModel.swift */,
 				4B0AF09928E867F100D541A1 /* WelcomeView.swift */,
+				4B0AF0A628E8BB4300D541A1 /* WelcomeBackView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				4B0AF09828E856EB00D541A1 /* LoginViewModel.swift in Sources */,
 				4B0AF09628E856CB00D541A1 /* LoginView.swift in Sources */,
 				4B0AF0A128E879DA00D541A1 /* ReservationsView.swift in Sources */,
+				4B0AF0A728E8BB4300D541A1 /* WelcomeBackView.swift in Sources */,
 				4B0AF06B28E8557F00D541A1 /* ContentView.swift in Sources */,
 				4B0AF06928E8557E00D541A1 /* Ravn_HackatonApp.swift in Sources */,
 			);

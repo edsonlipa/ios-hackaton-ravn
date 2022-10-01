@@ -19,6 +19,7 @@ struct ReservationsView: View {
 
             if office == "Peru", floor == "1st Floor" {
                 officeMap
+                    .padding(.horizontal, 16)
             }
 
             VStack {
@@ -46,10 +47,14 @@ struct ReservationsView: View {
 
                 Spacer()
             }
+            .padding(.horizontal, 16)
+            .toolbar {
+                Image("avatarCircular")
+                    .padding(.leading)
 
+            }
 
         }
-        .padding(.horizontal, 16)
     }
 
     var officeMap: some View {

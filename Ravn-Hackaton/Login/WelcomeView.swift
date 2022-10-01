@@ -12,6 +12,7 @@ struct WelcomeView: View {
         NavigationView {
             ZStack {
                 Color("defaultBackground")
+                    .ignoresSafeArea(.all)
 
                 VStack {
                     Image("logo")
@@ -30,6 +31,7 @@ struct WelcomeView: View {
                 }
                 .padding(.horizontal, 16)
             }
+            .navigationBarHidden(true)
             
         }
     }
