@@ -15,8 +15,10 @@ struct LoginView: View {
         NavigationView {
             ZStack {
                 Color("defaultBackground")
+                    .ignoresSafeArea(.all)
+                
                 NavigationLink(
-                    destination: WelcomeView(),
+                    destination: ReservationsView(),
                     tag: true,
                     selection: $logged
                 ) {
