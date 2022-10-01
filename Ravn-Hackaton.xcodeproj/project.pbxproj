@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B0AF06928E8557E00D541A1 /* Ravn_HackatonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF06828E8557E00D541A1 /* Ravn_HackatonApp.swift */; };
+		4B0AF06B28E8557F00D541A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF06A28E8557F00D541A1 /* ContentView.swift */; };
+		4B0AF06D28E8558000D541A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0AF06C28E8558000D541A1 /* Assets.xcassets */; };
+		4B0AF07028E8558000D541A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0AF06F28E8558000D541A1 /* Preview Assets.xcassets */; };
+		4B0AF07A28E8558000D541A1 /* Ravn_HackatonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF07928E8558000D541A1 /* Ravn_HackatonTests.swift */; };
+		4B0AF08428E8558000D541A1 /* Ravn_HackatonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF08328E8558000D541A1 /* Ravn_HackatonUITests.swift */; };
+		4B0AF08628E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B0AF07628E8558000D541A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B0AF05D28E8557E00D541A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0AF06428E8557E00D541A1;
+			remoteInfo = "Ravn-Hackaton";
+		};
+		4B0AF08028E8558000D541A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B0AF05D28E8557E00D541A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B0AF06428E8557E00D541A1;
+			remoteInfo = "Ravn-Hackaton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B0AF06528E8557E00D541A1 /* Ravn-Hackaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ravn-Hackaton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0AF06828E8557E00D541A1 /* Ravn_HackatonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonApp.swift; sourceTree = "<group>"; };
+		4B0AF06A28E8557F00D541A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B0AF06C28E8558000D541A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B0AF06F28E8558000D541A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B0AF07528E8558000D541A1 /* Ravn-HackatonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravn-HackatonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0AF07928E8558000D541A1 /* Ravn_HackatonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonTests.swift; sourceTree = "<group>"; };
+		4B0AF07F28E8558000D541A1 /* Ravn-HackatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravn-HackatonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0AF08328E8558000D541A1 /* Ravn_HackatonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonUITests.swift; sourceTree = "<group>"; };
+		4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B0AF06228E8557E00D541A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07228E8558000D541A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07C28E8558000D541A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0AF05C28E8557E00D541A1 = {
+			isa = PBXGroup;
+			children = (
+				4B0AF06728E8557E00D541A1 /* Ravn-Hackaton */,
+				4B0AF07828E8558000D541A1 /* Ravn-HackatonTests */,
+				4B0AF08228E8558000D541A1 /* Ravn-HackatonUITests */,
+				4B0AF06628E8557E00D541A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B0AF06628E8557E00D541A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF06528E8557E00D541A1 /* Ravn-Hackaton.app */,
+				4B0AF07528E8558000D541A1 /* Ravn-HackatonTests.xctest */,
+				4B0AF07F28E8558000D541A1 /* Ravn-HackatonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B0AF06728E8557E00D541A1 /* Ravn-Hackaton */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF06828E8557E00D541A1 /* Ravn_HackatonApp.swift */,
+				4B0AF06A28E8557F00D541A1 /* ContentView.swift */,
+				4B0AF06C28E8558000D541A1 /* Assets.xcassets */,
+				4B0AF06E28E8558000D541A1 /* Preview Content */,
+			);
+			path = "Ravn-Hackaton";
+			sourceTree = "<group>";
+		};
+		4B0AF06E28E8558000D541A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF06F28E8558000D541A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B0AF07828E8558000D541A1 /* Ravn-HackatonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF07928E8558000D541A1 /* Ravn_HackatonTests.swift */,
+			);
+			path = "Ravn-HackatonTests";
+			sourceTree = "<group>";
+		};
+		4B0AF08228E8558000D541A1 /* Ravn-HackatonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF08328E8558000D541A1 /* Ravn_HackatonUITests.swift */,
+				4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */,
+			);
+			path = "Ravn-HackatonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B0AF06428E8557E00D541A1 /* Ravn-Hackaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0AF08928E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-Hackaton" */;
+			buildPhases = (
+				4B0AF06128E8557E00D541A1 /* Sources */,
+				4B0AF06228E8557E00D541A1 /* Frameworks */,
+				4B0AF06328E8557E00D541A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ravn-Hackaton";
+			productName = "Ravn-Hackaton";
+			productReference = 4B0AF06528E8557E00D541A1 /* Ravn-Hackaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B0AF07428E8558000D541A1 /* Ravn-HackatonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0AF08C28E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-HackatonTests" */;
+			buildPhases = (
+				4B0AF07128E8558000D541A1 /* Sources */,
+				4B0AF07228E8558000D541A1 /* Frameworks */,
+				4B0AF07328E8558000D541A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B0AF07728E8558000D541A1 /* PBXTargetDependency */,
+			);
+			name = "Ravn-HackatonTests";
+			productName = "Ravn-HackatonTests";
+			productReference = 4B0AF07528E8558000D541A1 /* Ravn-HackatonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B0AF07E28E8558000D541A1 /* Ravn-HackatonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B0AF08F28E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-HackatonUITests" */;
+			buildPhases = (
+				4B0AF07B28E8558000D541A1 /* Sources */,
+				4B0AF07C28E8558000D541A1 /* Frameworks */,
+				4B0AF07D28E8558000D541A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B0AF08128E8558000D541A1 /* PBXTargetDependency */,
+			);
+			name = "Ravn-HackatonUITests";
+			productName = "Ravn-HackatonUITests";
+			productReference = 4B0AF07F28E8558000D541A1 /* Ravn-HackatonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B0AF05D28E8557E00D541A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4B0AF06428E8557E00D541A1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					4B0AF07428E8558000D541A1 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4B0AF06428E8557E00D541A1;
+					};
+					4B0AF07E28E8558000D541A1 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 4B0AF06428E8557E00D541A1;
+					};
+				};
+			};
+			buildConfigurationList = 4B0AF06028E8557E00D541A1 /* Build configuration list for PBXProject "Ravn-Hackaton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B0AF05C28E8557E00D541A1;
+			productRefGroup = 4B0AF06628E8557E00D541A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B0AF06428E8557E00D541A1 /* Ravn-Hackaton */,
+				4B0AF07428E8558000D541A1 /* Ravn-HackatonTests */,
+				4B0AF07E28E8558000D541A1 /* Ravn-HackatonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B0AF06328E8557E00D541A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0AF07028E8558000D541A1 /* Preview Assets.xcassets in Resources */,
+				4B0AF06D28E8558000D541A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07328E8558000D541A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07D28E8558000D541A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B0AF06128E8557E00D541A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0AF06B28E8557F00D541A1 /* ContentView.swift in Sources */,
+				4B0AF06928E8557E00D541A1 /* Ravn_HackatonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07128E8558000D541A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0AF07A28E8558000D541A1 /* Ravn_HackatonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B0AF07B28E8558000D541A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0AF08628E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift in Sources */,
+				4B0AF08428E8558000D541A1 /* Ravn_HackatonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B0AF07728E8558000D541A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0AF06428E8557E00D541A1 /* Ravn-Hackaton */;
+			targetProxy = 4B0AF07628E8558000D541A1 /* PBXContainerItemProxy */;
+		};
+		4B0AF08128E8558000D541A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B0AF06428E8557E00D541A1 /* Ravn-Hackaton */;
+			targetProxy = 4B0AF08028E8558000D541A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B0AF08728E8558000D541A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B0AF08828E8558000D541A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B0AF08A28E8558000D541A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ravn-Hackaton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-Hackaton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B0AF08B28E8558000D541A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ravn-Hackaton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-Hackaton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B0AF08D28E8558000D541A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-HackatonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravn-Hackaton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ravn-Hackaton";
+			};
+			name = Debug;
+		};
+		4B0AF08E28E8558000D541A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-HackatonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ravn-Hackaton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ravn-Hackaton";
+			};
+			name = Release;
+		};
+		4B0AF09028E8558000D541A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-HackatonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ravn-Hackaton";
+			};
+			name = Debug;
+		};
+		4B0AF09128E8558000D541A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edson.lipa.Ravn-HackatonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ravn-Hackaton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0AF06028E8557E00D541A1 /* Build configuration list for PBXProject "Ravn-Hackaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0AF08728E8558000D541A1 /* Debug */,
+				4B0AF08828E8558000D541A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0AF08928E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-Hackaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0AF08A28E8558000D541A1 /* Debug */,
+				4B0AF08B28E8558000D541A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0AF08C28E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-HackatonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0AF08D28E8558000D541A1 /* Debug */,
+				4B0AF08E28E8558000D541A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B0AF08F28E8558000D541A1 /* Build configuration list for PBXNativeTarget "Ravn-HackatonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0AF09028E8558000D541A1 /* Debug */,
+				4B0AF09128E8558000D541A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B0AF05D28E8557E00D541A1 /* Project object */;
+}
