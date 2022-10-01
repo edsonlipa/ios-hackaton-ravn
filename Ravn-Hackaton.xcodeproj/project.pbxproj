@@ -14,6 +14,9 @@
 		4B0AF07A28E8558000D541A1 /* Ravn_HackatonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF07928E8558000D541A1 /* Ravn_HackatonTests.swift */; };
 		4B0AF08428E8558000D541A1 /* Ravn_HackatonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF08328E8558000D541A1 /* Ravn_HackatonUITests.swift */; };
 		4B0AF08628E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */; };
+		4B0AF09628E856CB00D541A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF09528E856CB00D541A1 /* LoginView.swift */; };
+		4B0AF09828E856EB00D541A1 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF09728E856EB00D541A1 /* LoginViewModel.swift */; };
+		4B0AF09A28E867F100D541A1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0AF09928E867F100D541A1 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4B0AF07F28E8558000D541A1 /* Ravn-HackatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ravn-HackatonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0AF08328E8558000D541A1 /* Ravn_HackatonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonUITests.swift; sourceTree = "<group>"; };
 		4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ravn_HackatonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B0AF09528E856CB00D541A1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4B0AF09728E856EB00D541A1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4B0AF09928E867F100D541A1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		4B0AF06728E8557E00D541A1 /* Ravn-Hackaton */ = {
 			isa = PBXGroup;
 			children = (
+				4B0AF09B28E8692000D541A1 /* OfficeMap */,
+				4B0AF09228E8568000D541A1 /* Login */,
 				4B0AF06828E8557E00D541A1 /* Ravn_HackatonApp.swift */,
 				4B0AF06A28E8557F00D541A1 /* ContentView.swift */,
 				4B0AF06C28E8558000D541A1 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				4B0AF08528E8558000D541A1 /* Ravn_HackatonUITestsLaunchTests.swift */,
 			);
 			path = "Ravn-HackatonUITests";
+			sourceTree = "<group>";
+		};
+		4B0AF09228E8568000D541A1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4B0AF09528E856CB00D541A1 /* LoginView.swift */,
+				4B0AF09728E856EB00D541A1 /* LoginViewModel.swift */,
+				4B0AF09928E867F100D541A1 /* WelcomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4B0AF09B28E8692000D541A1 /* OfficeMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OfficeMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0AF09A28E867F100D541A1 /* WelcomeView.swift in Sources */,
+				4B0AF09828E856EB00D541A1 /* LoginViewModel.swift in Sources */,
+				4B0AF09628E856CB00D541A1 /* LoginView.swift in Sources */,
 				4B0AF06B28E8557F00D541A1 /* ContentView.swift in Sources */,
 				4B0AF06928E8557E00D541A1 /* Ravn_HackatonApp.swift in Sources */,
 			);
@@ -424,6 +452,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +481,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

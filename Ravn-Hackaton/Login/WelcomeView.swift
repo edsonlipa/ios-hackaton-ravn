@@ -9,7 +9,29 @@ import SwiftUI
 
 struct WelcomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ZStack {
+                Color("defaultBackground")
+
+                VStack {
+                    Image("logo")
+                    Text("Sign in to your account")
+                        .bold()
+                        .font(.title)
+
+                    Text(
+                        "It seems that you do not have invitations to any workspace, check that you have been invited to one"
+                    )
+                    .foregroundColor(.gray)
+                    .font(.subheadline)
+                    .padding(.vertical, 24)
+
+                    Button("Try a different email", action: {})
+                }
+                .padding(.horizontal, 16)
+            }
+            
+        }
     }
 }
 
